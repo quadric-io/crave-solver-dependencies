@@ -32,9 +32,10 @@ ${SRC_PREFIX}/boolector.h
 ${SRC_PREFIX}/btortypes.h
 )
 
+# 2. ${SRC_PREFIX}/btor2horn.c
+
 set( libboolector_SRC
 ${SRC_PREFIX}/boolector.c
-${SRC_PREFIX}/btor2horn.c
 ${SRC_PREFIX}/btoraig.c
 ${SRC_PREFIX}/btoraigvec.c
 ${SRC_PREFIX}/btorass.c
